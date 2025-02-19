@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { CheckboxModule } from 'primeng/checkbox';
+
 
 @Component({
   selector: 'app-root',
@@ -22,3 +24,4 @@ export class AppComponent implements OnInit {
     return 100;
   }
 }
+
